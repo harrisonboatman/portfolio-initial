@@ -71,21 +71,60 @@ main div img {
     height:50px
 }
 
-.AboutMe{
+#AboutMe{
     display: flex;
    
     margin-top:100px;
 }
-.AboutMe h1 {
+#AboutMe h1 {
     border-right: 5px solid lightblue;
     width: 30%;
-    height:600px;
+    height:700px;
     justify-content: left;
     text-align: center;
     font-size: 50px;
 
 }
-.AboutMe p{
+#Work{
+    display: flex;
+   
+    margin-top:100px;
+}
+#Work h1 {
+    border-right: 5px solid lightblue;
+    width: 30%;
+    height:700px;
+    justify-content: left;
+    text-align: center;
+    font-size: 50px;
+}
+#ContactMe{
+    display: flex;
+   
+    margin-top:100px;
+}
+#ContactMe h1 {
+    border-right: 5px solid lightblue;
+    width: 30%;
+    height:700px;
+    justify-content: left;
+    text-align: center;
+    font-size: 50px;
+}
+#Resume{
+    display: flex;
+   
+    margin-top:100px;
+}
+#Resume h1 {
+    border-right: 5px solid lightblue;
+    width: 30%;
+    height:700px;
+    justify-content: left;
+    text-align: center;
+    font-size: 50px;
+}
+#AboutMe p{
     margin: 100px;
     margin-left: 400px;;
     
@@ -97,10 +136,11 @@ main div img {
 
 .Placeholder1{
     
-    width: 700px;
+    width: 900px;
     height: 300px;
     justify-content: center;
     margin-left: 150px;
+    margin-bottom:10px;
     border:5px solid lightblue;
 }
 .Placeholder1 img{
@@ -114,11 +154,12 @@ main div img {
 } */
 
 .Placeholder2{
-    
+    display: inline;
     width: 25%;
     height: 200px;
     justify-content: center;
     margin-left: 150px;
+    margin-bottom:10px;
     border:5px solid lightblue;
 }
 .Placeholder2 img{
@@ -137,6 +178,7 @@ main div img {
     height: 200px;
     justify-content: center;
     margin-left: 10px;
+    margin-bottom:10px;
     border:5px solid lightblue;
 }
 .Placeholder3 img{
@@ -152,10 +194,11 @@ main div img {
 .Placeholder4{
     display: flex;
     flex-direction: row;
-    width: 25%;
+    width: 53%;
     height: 200px;
     justify-content: center;
     margin-left: 150px;
+    margin-bottom:10px;
     border:5px solid lightblue;
 }
 .Placeholder4 img{
@@ -168,7 +211,7 @@ main div img {
     
 } */
 
-.Placeholder5{
+/* .Placeholder5{
     display: inline;
     width: 20%;
     height: 200px;
@@ -178,8 +221,8 @@ main div img {
 }
 .Placeholder5 img{
     width:100%;
-    height:100%;
-}
+    height:100%; */
+/* } */
 /* .Placeholder5:hover #ph1text{
         display: flex;
         margin-top:-10px;
