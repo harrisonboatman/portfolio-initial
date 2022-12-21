@@ -255,9 +255,13 @@ main div img {
     border:10px solid lightblue;
     opacity:1; 
 }
-
-@media screen and (max-width: 968px){
-    header{
-        width:75%;
+@media screen and (min-width: 768px) {
+    #Work {
+      flex: 2 2 50%;
+      max-width: 90%;
+    }
+    #ContactMe {
+        margin: 10px;
+        margin-top: 10px;
     }
 }
